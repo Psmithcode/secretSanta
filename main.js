@@ -29,9 +29,12 @@ const createPairs = () => {
     let pair = `${name1} and ${name2}`;
     pairs.push(pair);
   }
-  if (names2.length == 1) {
-    pairs.push(names2[0]);
+  if (nameCount % 2 == 0) {
+    pairs.pop();
   }
+  // else if (names2.length == 0) {
+  //   pairs.pop();
+  // }
   //   pairs.pop();
   console.log("This is a pair", pairs);
   displayPairs();
