@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  width: 100%;
+  height: 100%;
+}
+
+body {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#pageContainer {
+  width: 100%;
+  height: 100%;
+  background-color: grey;
+  display: flex;
+  flex-direction: column;
+  max-width: 600px;
+}
+
+h1 {
+  font-size: 3rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#nameInputContainer {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+#nameInput {
+  background-color: white;
+  color: black;
+  width: 100%;
+  margin: 5px;
+  font-size: 1.5rem;
+}
+
+#nameInputButton {
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  margin: 10px 0 10px 0;
+}
+
+#nameList {
+  width: 100%;
+  list-style: none;
+  font-size: 2rem;
+  padding-left: 10px;
+  color: white;
+  margin: 10px 0 10px 0;
+}
+
+#nameList > li {
+  margin: 10px 0 10px 0;
+}
+
+#secretSantaList > li {
+  margin: 10px 0 10px 0;
+}
+
+#secretSantaList {
+  width: 100%;
+  list-style: none;
+  font-size: 2rem;
+  padding-left: 10px;
+  color: white;
+  margin: 10px 0 10px 0;
+}
+
+#secretSantaContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#secretSantaButton {
+  background-color: white;
+  color: black;
+  font-size: 1.5rem;
+  margin: 10px 0 10px 0;
+  width: auto;
+}
